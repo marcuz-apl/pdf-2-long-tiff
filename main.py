@@ -31,4 +31,4 @@ def pdf_to_long_tiff(pdf_path, output_tiff_path, dpi=200):
 
 
 if __name__ == "__main__":
-    pdf_to_long_tiff("./sample.pdf", "./outputs/long_image.tiff", dpi=200)
+    pdf_to_long_tiff("./inputs/sample.pdf", "./outputs/sample_long_image.tiff", dpi=200)
